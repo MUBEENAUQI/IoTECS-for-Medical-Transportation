@@ -75,7 +75,7 @@ class Temp extends React.Component {
 
                                     return (
                                         <tr>
-                                            <td style={data.ambient > 35 && data.ambient < 38 ? { color: 'green' } : { color: "red" }} > {data.ambient}{' '}</td>
+                                            <td style={data.object > 35 && data.object < 38 ? { color: 'green' } : { color: "red" }} > {data.object}{' '}</td>
 
                                         </tr>
                                     );
