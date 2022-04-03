@@ -54,7 +54,7 @@ class Temp extends React.Component {
                                 <Card.Text>
                                     Normal body Temperature of a person : 36.1 C to 37.2 C
                                 </Card.Text>
-                                <Card.Text style={this.state.count > 36 && this.state.count < 37.5 ? { color: 'green' } : { color: "red" }}>
+                                <Card.Text style={this.state.count > 35 && this.state.count < 38 ? { color: 'green' } : { color: "red" }}>
                                     Patient body temperature : {this.state.count} C
                                 </Card.Text>
 
