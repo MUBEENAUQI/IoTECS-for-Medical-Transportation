@@ -50,7 +50,7 @@ class Temp extends React.Component {
                         <Card className="tempcard" onClick={() => this.setState({ show: true })} >
 
                             <Card.Body>
-                                <Card.Title style={{ marginTop: 5 }}>Body Temperature</Card.Title>
+                                <Card.Title style={{ marginTop: 5 }}>Mubeena Temperature</Card.Title>
                                 <Card.Text>
                                     Normal body Temperature of a person : 36.1 C to 37.2 C
                                 </Card.Text>
