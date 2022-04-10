@@ -3,6 +3,7 @@ import React from "react";
 import Col from 'react-bootstrap/Col'
 import "../index.css";
 import Temp from "../../src/components/Bodypara/temp"
+//import PluseOxy from "../../src/components/Bodypara/heart"
 
 
 class Home extends React.Component {
@@ -19,7 +20,7 @@ class Home extends React.Component {
 
                 <Col style={{ marginTop: 30 }}>
                     <Temp/>
-
+                        {/*<PluseOxy/>*/}
                 </Col>
 
 
