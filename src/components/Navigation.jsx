@@ -22,8 +22,8 @@ function Navigation() {
                   Location
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/Video">
+                          <li className="nav-item" onClick={event => window.location.href = 'https://videocall-iotecs.herokuapp.com/'}>
+                <NavLink className="nav-link" to="">
                   Video
                 </NavLink>
               </li>
