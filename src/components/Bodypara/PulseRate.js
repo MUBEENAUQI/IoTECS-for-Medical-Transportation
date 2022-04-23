@@ -12,7 +12,7 @@ class Pulse extends React.Component {
 
 
             <div className="tbox">
-                <p>Pulse</p>
+                <p className="boxfont">Pulse:</p>
             </div>
 
         );
