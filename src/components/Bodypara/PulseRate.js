@@ -11,7 +11,7 @@ class Pulse extends React.Component {
         return (
 
 
-            <div>
+            <div className="pbox">
                 <p>Pulse</p>
             </div>
 

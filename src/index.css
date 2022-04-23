@@ -38,24 +38,52 @@ a:hover {
 
 .para {
     height: 30%;
-    background-color:hotpink;
+    background-color:white;
+    margin-bottom:1%
 }
-.temprature{
-    width:33.3%;
-    background-color: darkgoldenrod;
-    height:100%;
+.temprature {
+    width: 33.3%;
+    background-color: white;
+    height: 100%;
+    padding-top: .9%;
+    padding-bottom: 1.2%;
+    padding-inline: 2%;
+    margin-left: 1%
 }
 
 .pulserate {
     width: 33.3%;
-    background-color: mediumspringgreen;
+    background-color: white;
     height: 100%;
+    padding-top:.9%;
+    padding-bottom:1.2%;
+    padding-inline:2%;
+    
 }
 
 .oxygenlevel {
     width: 33.3%;
-    background-color: bisque;
+    background-color: white;
     height: 100%;
+    padding-top: .9%;
+    padding-bottom: 1.2%;
+    padding-inline: 2%
+}
+
+.tbox {
+    height: 95%;
+    width: 100%;
+    background-color: #282C35;
+}
+.obox {
+    height: 95%;
+    width: 100%;
+    background-color: #282C35;
+}
+.pbox {
+    height: 95%;
+    width: 100%;
+    background-color: #282C35;
 }
 
 
