@@ -5,7 +5,7 @@ import "../index.css";
 import Temperature from "../../src/components/Bodypara/Temperature"
 import Oxy from "../../src/components/Bodypara/Oxygen"
 import Pulse from "../../src/components/Bodypara/PulseRate"
-
+import ECG from "../../src/components/Bodypara/ECG"
 
 
 class Home extends React.Component {
@@ -15,7 +15,7 @@ class Home extends React.Component {
 
             <div className="homescreen">
                 <Row className="ecg">
-                    <p> ecg</p>
+                    <ECG/>
                 </Row>
                 <Row className="para">
                     <Col className="temprature"> <Temperature /></Col>
