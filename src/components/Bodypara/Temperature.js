@@ -11,7 +11,7 @@ class Temperature extends React.Component {
         return (
 
 
-            <div>
+            <div className="tbox">
                 <p>temp</p>
             </div>
 

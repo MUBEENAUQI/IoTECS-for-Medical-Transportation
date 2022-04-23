@@ -11,7 +11,7 @@ class Oxy extends React.Component {
         return (
 
 
-            <div>
+            <div className="tbox">
                 <p>oxy</p>
             </div>
 
