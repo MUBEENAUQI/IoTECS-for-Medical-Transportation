@@ -1,9 +1,11 @@
 import React from "react";
-
+import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import "../index.css";
-import Temp from "../../src/components/Bodypara/temp"
-//import PluseOxy from "../../src/components/Bodypara/heart"
+import Temperature from "../../src/components/Bodypara/Temperature"
+import Oxy from "../../src/components/Bodypara/Oxygen"
+import Pulse from "../../src/components/Bodypara/PulseRate"
+
 
 
 class Home extends React.Component {
@@ -11,21 +13,15 @@ class Home extends React.Component {
     render() {
         return (
 
-
-            <div className="home">
-                <div class="container" >
-                <h1 className="text-center mt-5">Patient Health Parameters</h1>
-
-
-
-                <Col style={{ marginTop: 30 }}>
-                    <Temp/>
-                        {/*<PluseOxy/>*/}
-                </Col>
-
-
-
-            </div>
+            <div className="homescreen">
+                <Row className="ecg">
+                    <p> ecg</p>
+                </Row>
+                <Row className="para">
+                    <Col className="temprature"> <Temperature /></Col>
+                    <Col className="pulserate"><Pulse /></Col>
+                    <Col className="oxygenlevel"><Oxy/></Col>
+                </Row>
             </div>
 
   );

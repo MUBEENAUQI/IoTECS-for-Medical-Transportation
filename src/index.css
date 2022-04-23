@@ -24,4 +24,38 @@ a:hover {
     background: rgb(86, 101, 115 );
 }
 
+.homescreen{
+    background-color:aquamarine;
+    height:600px;
+    width:99%
+}
+
+.ecg{
+    height:70%;
+    background-color:aqua;
+    
+}
+
+.para {
+    height: 30%;
+    background-color:hotpink;
+}
+.temprature{
+    width:33.3%;
+    background-color: darkgoldenrod;
+    height:100%;
+}
+
+.pulserate {
+    width: 33.3%;
+    background-color: mediumspringgreen;
+    height: 100%;
+}
+
+.oxygenlevel {
+    width: 33.3%;
+    background-color: bisque;
+    height: 100%;
+}
+
 
