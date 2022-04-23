@@ -12,7 +12,7 @@ class Oxy extends React.Component {
 
 
             <div className="tbox">
-                <p>oxy</p>
+                <p className="boxfont">oxygen:</p>
             </div>
 
         );
