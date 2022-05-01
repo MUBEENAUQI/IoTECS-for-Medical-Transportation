@@ -15,7 +15,9 @@ class Home extends React.Component {
 
             <div className="homescreen">
                 <Row className="ecg">
-                    <ECG/>
+                   
+                    
+                    <Col> <ECG /></Col>
                 </Row>
                 <Row className="para">
                     <Col className="temprature"> <Temperature /></Col>
