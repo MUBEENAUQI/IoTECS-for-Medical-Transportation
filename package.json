@@ -11,12 +11,15 @@
     "firebase": "^9.6.9",
     "google-maps-react": "^2.0.6",
     "history": "^5.1.0",
+    "plotly.js": "^2.11.1",
     "react": "^16.12.0",
     "react-bootstrap": "^2.2.1",
     "react-chartjs-2": "^4.1.0",
     "react-dom": "^16.12.0",
+    "react-plotly.js": "^2.5.1",
     "react-router-dom": "^6.0.2",
-    "react-scripts": "3.3.1"
+    "react-scripts": "3.3.1",
+    "recharts": "^2.1.9"
   },
   "scripts": {
     "start": "react-scripts start",
