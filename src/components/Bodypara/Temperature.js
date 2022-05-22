@@ -16,9 +16,9 @@ class Temperature extends React.Component {
     componentDidMount() {
 
 
-        firebase.database().ref("mlx90614/1-set").on("value", snapshot => {
-            console.log(snapshot.val().object);
-            this.setState({ Temp: snapshot.val().object });
+        firebase.database().ref("sensorData/1-set").on("value", snapshot => {
+            console.log(snapshot.val().ObjectTempC);
+            this.setState({ Temp: snapshot.val().ObjectTempC });
 
         });
         
