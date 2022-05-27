@@ -36,15 +36,15 @@ class Location extends React.Component {
                 style={{ width: "100%", height: "100%" }}
                 zoom={18}
                 initialCenter={{
-                    lat: 9.8919532,
-                    lng: 76.4379027
+                    lat: this.state.lat,
+                    lng: this.state.lon
                 }}>
                 <Marker
                     title={'The marker`s title will appear as a tooltip.'}
                     name={'SOMA'}
                     position={{
-                        lat: 9.8919532,
-                        lng: 76.4379027
+                        lat: this.state.lat,
+                        lng: this.state.lon
                     }} />
                 </Map>
 

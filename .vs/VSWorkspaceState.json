@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Bodypara"
+    "\\src\\components\\Bodypara",
+    "\\src\\connect"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\components\\Bodypara\\ECG.js",
   "PreviewInSolutionExplorer": false
 }
